@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "content0": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "从日常灵感出发",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friwind 希望让选购成为探索日常灵感的过程。了解商品的设计、细节和用途，找到契合个人喜好的选择。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    },
+    "content1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "认识我们的商品",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>我们鼓励你仔细阅读商品介绍，比较规格和细节。关于商品来源、材质或适用场景的问题，欢迎通过联系页面咨询。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "content0",
+    "content1"
+  ]
+}

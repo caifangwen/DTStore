@@ -5,32 +5,32 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
+        "brand": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "认识 Friwind",
+            "subtext": "<ul><li><a href=\"/pages/about\">关于我们</a></li><li><a href=\"/pages/brand-story\">品牌故事</a></li><li><a href=\"/pages/contact\">联系我们</a></li></ul>"
+          }
+        },
+        "service": {
+          "type": "text",
+          "settings": {
+            "heading": "客户服务",
+            "subtext": "<ul><li><a href=\"/pages/faq\">常见问题</a></li><li><a href=\"/pages/shipping\">配送说明</a></li><li><a href=\"/pages/returns\">退换货说明</a></li><li><a href=\"/pages/order-help\">订单帮助</a></li></ul>"
+          }
+        },
+        "guides": {
+          "type": "text",
+          "settings": {
+            "heading": "选购与使用",
+            "subtext": "<ul><li><a href=\"/pages/buying-guide\">选购指南</a></li><li><a href=\"/pages/care-guide\">使用与保养</a></li></ul>"
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "brand",
+        "service",
+        "guides"
       ],
       "settings": {
         "color_scheme": "scheme-1",
