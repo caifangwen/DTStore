@@ -11,7 +11,7 @@ We're really glad you're reading this, because we would love to have more develo
 
 ## Before contributing
 
-If you encounter a bug or think of a useful feature for Dawn, please [create a new issue](https://github.com/Shopify/dawn/issues/new). Creating an issue before jumping into code ensures we can discuss it and determine whether it aligns with the direction of the theme.
+If you encounter a bug or think of a useful feature for Dawn, please [create a new issue](https://github.com/caifangwen/friwind-shopify/issues/new). Creating an issue before jumping into code ensures we can discuss it and determine whether it aligns with the direction of the theme.
 
 If you want to contribute to the theme, regardless of whether it's a small bug fix or correcting a typo, please feel free to do so. Any help goes a long way! Also, contributions aren't necessarily all code related. Other contributions can be in the form of issues, pull requests, discussions, etc.
 
@@ -111,7 +111,7 @@ git push origin your-new-branch-name
 
 ## Reporting a bug
 
-Bugs are tracked as [GitHub issues](https://github.com/Shopify/dawn/issues). Search open issues to see if someone else has reported a similar bug. If it's something new, [open an issue](https://github.com/Shopify/dawn/issues/new). We'll use the issue to have a conversation about the problem you want to fix.
+Bugs are tracked as [GitHub issues](https://github.com/caifangwen/friwind-shopify/issues). Search open issues to see if someone else has reported a similar bug. If it's something new, [open an issue](https://github.com/caifangwen/friwind-shopify/issues/new). We'll use the issue to have a conversation about the problem you want to fix.
 
 When creating a new issue, please ensure the issue is clear and include additional details to help maintainers reproduce it:
 

@@ -1,8 +1,12 @@
+# Friwind Shopify Theme
+
+项目地址：[caifangwen/friwind-shopify](https://github.com/caifangwen/friwind-shopify)
+
 由 [Trellis Commerce](https://trellis.co/) 提供并维护。Trellis 是一家位于美国马萨诸塞州波士顿的全方位电子商务服务机构。
 
 最近合并的上游代码来自 [Dawn v15.2.0](https://github.com/Shopify/dawn/releases/tag/v15.2.0)。
 
-# Dawn + Tailwind CSS + Prettier Shopify 起始主题
+## 项目基础：Dawn + Tailwind CSS + Prettier Shopify 起始主题
 
 集成了 Tailwind CSS 和 Prettier 的 Shopify Dawn 主题。
 
@@ -144,7 +148,7 @@
 
 ---
 
-# 起始主题的其他版本
+# 上游起始主题的其他版本
 
 ## Trade 版本
 

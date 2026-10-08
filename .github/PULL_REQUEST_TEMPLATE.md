@@ -36,7 +36,7 @@ Fixes #0.
 - [ ] Added PR summary for [release notes](https://themes.shopify.com/themes/dawn/styles/default#ReleaseNotes)
 - [ ] Requested review from UX (Only for changes that are affecting the experience or perceivable visual details)
 - [ ] Created a ticket for the [help.shopify.com](https://help.shopify.com) documentation team about updates to theme settings. (Internal-only task)
-- [ ] Followed [theme code principles](https://github.com/Shopify/dawn/blob/main/.github/CONTRIBUTING.md#theme-code-principles)
+- [ ] Followed [theme code principles](https://github.com/caifangwen/friwind-shopify/blob/main/.github/CONTRIBUTING.md#theme-code-principles)
 - [ ] Linted with [Theme Check](https://github.com/Shopify/theme-check)
 - [ ] Tested on [mobile](https://shopify.dev/themes/store/requirements#mobile-browser-requirements)
 - [ ] Tested on [multiple browsers](https://shopify.dev/themes/store/requirements#desktop-browser-requirements)
