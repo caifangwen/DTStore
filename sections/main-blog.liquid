@@ -16,18 +16,23 @@
   }
 {%- endstyle -%}
 
+{%- assign blog_category_tags = blog.all_tags -%}
+{%- if blog_category_tags == blank -%}
+  {%- assign blog_category_tags = section.settings.category_tags | split: ',' -%}
+{%- endif -%}
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ blog.title | escape }}{% if current_tags %} — {{ current_tags | join: ', ' | escape }}{% endif %}
     </h1>
 
-    {%- if blog.all_tags.size > 0 -%}
+    {%- if blog_category_tags != blank -%}
       <nav class="blog-category-nav" aria-label="{{ 'blogs.categories.label' | t }}">
         <a href="{{ blog.url }}" class="button button--secondary"{% unless current_tags %} aria-current="page"{% endunless %}>
           {{ 'blogs.categories.all' | t }}
         </a>
-        {%- for tag in blog.all_tags -%}
+        {%- for category_tag in blog_category_tags -%}
+          {%- assign tag = category_tag | strip -%}
           <a href="{{ blog.url }}/tagged/{{ tag | handleize }}" class="button button--secondary"{% if current_tags contains tag %} aria-current="page"{% endif %}>
             {{ tag | escape }}
           </a>
@@ -84,6 +89,7 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {"type":"text","id":"category_tags","label":"Fallback article tags (comma separated)","default":"Buying Guides, Care & Use, Brand Stories"},
     {
       "type": "header",
       "content": "t:sections.main-blog.settings.header.content"

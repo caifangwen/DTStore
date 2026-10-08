@@ -529,5 +529,13 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "friwind": {
+    "policies": {
+      "intro": "Browse the published policies for this store.",
+      "contact": "For policy details that are not listed here, please",
+      "contact_link": "contact us before placing an order.",
+      "account_link": "View your account and orders"
+    }
   }
 }

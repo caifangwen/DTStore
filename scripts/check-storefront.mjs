@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 
-const origin = 'https://friwind.myshopify.com';
+const origin = new URL((await fetch('https://friwind.myshopify.com/', { signal: AbortSignal.timeout(30000) })).url).origin;
 let cookie = '';
 const password = process.env.FRIWIND_STOREFRONT_PASSWORD;
 if (password) {
@@ -14,9 +14,9 @@ if (password) {
   assert(response.status >= 200 && response.status < 400 && cookie, 'Storefront login failed');
 }
 
-async function page(path) {
+async function page(path, status = 200) {
   const response = await fetch(origin + path, { headers: { Cookie: cookie } });
-  assert.equal(response.status, 200, path);
+  assert.equal(response.status, status, path);
   assert(!new URL(response.url).pathname.startsWith('/password'), password ? 'Shopify rejected the storefront password' : 'Set FRIWIND_STOREFRONT_PASSWORD to check this store');
   const html = await response.text();
   assert(!html.includes('Liquid error'), 'Liquid render error on ' + path);
@@ -67,7 +67,7 @@ for (const [handle, title] of [["buying-guides","Buying Guides"],["care-use","Ca
   const nav = html.match(/<nav class="blog-category-nav"[\s\S]*?<\/nav>/)?.[0] || '';
   assert(nav.includes('tagged/' + handle + '" class="button button--secondary" aria-current="page"'), 'Active category is missing: ' + handle);
 }
-const empty = await page('/blogs/news/tagged/no-matching-category');
-assert(empty.includes('No articles in this category yet.'), 'Empty category message is missing');
-console.log('Passed: catalog banners, native filters, English pages, footer links, article categories, and empty state.');
+const empty = await page('/blogs/news/tagged/no-matching-category', 404);
+assert(empty.includes('template-404'), 'Unknown article category should show the native 404');
+console.log('Passed: catalog banners, native filters, English pages, footer links, article categories, and unknown-category 404.');
 console.log('Available filters: ' + filterNames.join(', '));

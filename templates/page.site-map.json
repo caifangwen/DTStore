@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A guide to the store, our stories, and customer support.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "directory": {
+      "type": "multicolumn",
+      "blocks": {
+        "card0": {
+          "type": "column",
+          "settings": {
+            "title": "Shop",
+            "text": "<p>Browse products, explore collections, or search for something specific.</p><p><a href=\"/collections/all\">All products</a> · <a href=\"/collections\">Collections</a> · <a href=\"/search\">Search</a> · <a href=\"/cart\">Shopping bag</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "card1": {
+          "type": "column",
+          "settings": {
+            "title": "Meet Friwind",
+            "text": "<p>Discover the perspective behind the store.</p><p><a href=\"/pages/about\">About us</a> · <a href=\"/pages/brand-story\">Our story</a> · <a href=\"/pages/contact\">Contact us</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "card2": {
+          "type": "column",
+          "settings": {
+            "title": "Guides & journal",
+            "text": "<p>Ideas, buying advice, and care tips.</p><p><a href=\"/blogs/news\">Journal</a> · <a href=\"/pages/article-categories\">Article categories</a> · <a href=\"/pages/buying-guide\">Buying guide</a> · <a href=\"/pages/care-guide\">Care & use</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "card3": {
+          "type": "column",
+          "settings": {
+            "title": "Customer support",
+            "text": "<p>Answers to common questions, delivery details, and order support.</p><p><a href=\"/pages/help-center\">Help center</a> · <a href=\"/pages/faq\">FAQs</a> · <a href=\"/pages/shipping\">Shipping</a> · <a href=\"/pages/returns\">Returns</a> · <a href=\"/pages/order-help\">Order help</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "card4": {
+          "type": "column",
+          "settings": {
+            "title": "Policies",
+            "text": "<p>Read the store policies available for your purchase.</p><p><a href=\"/pages/policies\">Store policies</a></p><p><a href=\"/pages/data-sharing-opt-out\">Your privacy choices</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card0",
+        "card1",
+        "card2",
+        "card3",
+        "card4"
+      ],
+      "settings": {
+        "title": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "columns_mobile": "1",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "intro",
+    "directory"
+  ]
+}

@@ -16,14 +16,14 @@
           "type": "text",
           "settings": {
             "heading": "Customer Service",
-            "subtext": "<ul><li><a href=\"/pages/faq\">FAQs</a></li><li><a href=\"/pages/shipping\">Shipping Information</a></li><li><a href=\"/pages/returns\">Returns & Exchanges</a></li><li><a href=\"/pages/order-help\">Order Help</a></li></ul>"
+            "subtext": "<ul><li><a href=\"/pages/help-center\">Help Center</a></li><li><a href=\"/pages/faq\">FAQs</a></li><li><a href=\"/pages/shipping\">Shipping Information</a></li><li><a href=\"/pages/returns\">Returns & Exchanges</a></li><li><a href=\"/pages/order-help\">Order Help</a></li></ul>"
           }
         },
         "guides": {
           "type": "text",
           "settings": {
             "heading": "Guides & Journal",
-            "subtext": "<ul><li><a href=\"/pages/buying-guide\">Buying Guide</a></li><li><a href=\"/pages/care-guide\">Care & Use</a></li><li><a href=\"/pages/article-categories\">Article Categories</a></li><li><a href=\"/blogs/news\">Journal</a></li></ul>"
+            "subtext": "<ul><li><a href=\"/pages/buying-guide\">Buying Guide</a></li><li><a href=\"/pages/care-guide\">Care & Use</a></li><li><a href=\"/pages/article-categories\">Article Categories</a></li><li><a href=\"/blogs/news\">Journal</a></li><li><a href=\"/pages/site-map\">Explore Friwind</a></li><li><a href=\"/pages/policies\">Store Policies</a></li></ul>"
           }
         },
         "intro": {
@@ -48,7 +48,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "show_policy": false,
+        "show_policy": true,
         "margin_top": 0,
         "padding_top": 64,
         "padding_bottom": 32

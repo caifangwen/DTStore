@@ -1,0 +1,22 @@
+<div class="page-width page-width--narrow friwind-policies">
+  <p>{{ 'friwind.policies.intro' | t }}</p>
+  <ul>
+    {% for policy in shop.policies %}
+      {% if policy.body != blank %}
+        <li><a href="{{ policy.url }}">{{ policy.title | escape }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <p>{{ 'friwind.policies.contact' | t }} <a href="{{ pages.contact.url | default: '/pages/contact' }}">{{ 'friwind.policies.contact_link' | t }}</a></p>
+  {% if shop.customer_accounts_enabled %}
+    <p><a href="{{ routes.account_url }}">{{ 'friwind.policies.account_link' | t }}</a></p>
+  {% endif %}
+</div>
+{% stylesheet %}
+.friwind-policies{padding-top:16px;padding-bottom:64px}
+.friwind-policies li{margin-bottom:16px}
+.friwind-policies a{color:inherit;text-underline-offset:.3rem}
+{% endstylesheet %}
+{% schema %}
+{"name":"Store policy directory","settings":[]}
+{% endschema %}

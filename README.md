@@ -393,3 +393,8 @@ _当前无法通过后台编辑 Tailwind 字段。如需修改，请联系 Trell
 - 可运行 `npm run check:theme` 检查模板与 Liquid。线上商店启用了访问密码，直接验证前台交互需要商店访问密码。
 
 实时前台验证：先通过环境变量 `FRIWIND_STOREFRONT_PASSWORD` 提供当前商店访问密码，再运行 `npm run check:storefront`。检查覆盖 banner、桌面/移动筛选器、价格筛选、英文页面、文章分类结果及空分类状态。密码不写入代码或仓库；实时验证需使用有效的商店访问密码。
+## 页面规划与检查
+
+完整页面清单、模块布局及分步验收见 [网站规划](docs/website-plan.zh-CN.md)。
+
+运行 `npm run check:pages` 检查模板引用和页脚完整性。设置 `FRIWIND_STOREFRONT_PASSWORD` 后运行 `npm run check:pages -- --live` 检查已发布页面；检查不会创建订单或发送联系表单。

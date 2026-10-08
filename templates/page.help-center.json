@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find answers, manage an order, or get in touch. Start with the topic that matches your question.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "directory": {
+      "type": "multicolumn",
+      "blocks": {
+        "card0": {
+          "type": "column",
+          "settings": {
+            "title": "Orders & delivery",
+            "text": "<p>Find your order status link and learn what to do if you need to change an order.</p>",
+            "link_label": "Order help",
+            "link": "/pages/order-help"
+          }
+        },
+        "card1": {
+          "type": "column",
+          "settings": {
+            "title": "Shipping",
+            "text": "<p>Learn where to find delivery details and shipping costs for your order.</p>",
+            "link_label": "Shipping information",
+            "link": "/pages/shipping"
+          }
+        },
+        "card2": {
+          "type": "column",
+          "settings": {
+            "title": "Returns & exchanges",
+            "text": "<p>Find out how to contact us about a return, exchange, or item issue.</p>",
+            "link_label": "Returns & exchanges",
+            "link": "/pages/returns"
+          }
+        },
+        "card3": {
+          "type": "column",
+          "settings": {
+            "title": "Before you buy",
+            "text": "<p>Explore practical guidance to help you choose your next favorite.</p>",
+            "link_label": "Buying guide",
+            "link": "/pages/buying-guide"
+          }
+        },
+        "card4": {
+          "type": "column",
+          "settings": {
+            "title": "Care & use",
+            "text": "<p>Simple habits for looking after your purchases.</p>",
+            "link_label": "Care guide",
+            "link": "/pages/care-guide"
+          }
+        },
+        "card5": {
+          "type": "column",
+          "settings": {
+            "title": "Still need a hand?",
+            "text": "<p>Send your question through our contact form. Include your order number if your question concerns an order.</p>",
+            "link_label": "Contact us",
+            "link": "/pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "card0",
+        "card1",
+        "card2",
+        "card3",
+        "card4",
+        "card5"
+      ],
+      "settings": {
+        "title": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "columns_mobile": "1",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "intro",
+    "directory"
+  ]
+}
