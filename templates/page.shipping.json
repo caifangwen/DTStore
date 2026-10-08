@@ -7,20 +7,20 @@
         "padding_bottom": 24
       }
     },
-    "delivery": {
+    "content0": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "配送方式与运费",
+            "heading": "Delivery options and costs",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>可用的配送地区、方式和运费，以结账页面显示的信息为准。请在付款前核对收货地址、邮政编码和联系电话。</p>"
+            "text": "<p>Available shipping destinations, methods, and charges are shown at checkout. Before placing your order, check your delivery address, postal code, and contact number.</p>"
           }
         }
       },
@@ -35,20 +35,20 @@
         "padding_bottom": 40
       }
     },
-    "tracking": {
+    "content1": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "订单处理与物流查询",
+            "heading": "Order processing and tracking",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>订单处理与送达时间取决于商品、收货地区及承运商的实际安排。如收到发货通知，请通过通知中的物流信息查询配送进度。</p><p>如需确认配送范围或订单进度，请通过联系页面咨询并提供订单编号。</p>"
+            "text": "<p>Processing and delivery times depend on the product, destination, and carrier. When you receive a shipping notification, use the tracking details to follow your delivery. Contact us with your order number if you need assistance.</p>"
           }
         }
       },
@@ -63,20 +63,20 @@
         "padding_bottom": 40
       }
     },
-    "issues": {
+    "content2": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "收货与异常处理",
+            "heading": "Receiving your order",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>收货时请核对商品及包装。如遇物流异常、商品缺失或运输损坏，请保留相关照片和包装，并联系我们协助核实。</p>"
+            "text": "<p>Check the items and packaging when your order arrives. If anything is missing, damaged, or delayed, keep the packaging and relevant photos, then contact us so we can review the issue.</p>"
           }
         }
       },
@@ -94,8 +94,8 @@
   },
   "order": [
     "main",
-    "delivery",
-    "tracking",
-    "issues"
+    "content0",
+    "content1",
+    "content2"
   ]
 }

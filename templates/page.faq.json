@@ -13,41 +13,41 @@
         "ordering": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "如何下单？",
+            "heading": "How do I place an order?",
             "icon": "question_mark",
-            "row_content": "<p>选择商品及规格，加入购物车后前往结账页面。提交订单前，请核对商品、收货地址和联系方式。</p>"
+            "row_content": "<p>Choose a product and its options, add it to your cart, and continue to checkout. Review your items, delivery address, and contact details before submitting your order.</p>"
           }
         },
         "shipping": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "如何查看运费和配送信息？",
+            "heading": "Where can I find shipping costs?",
             "icon": "question_mark",
-            "row_content": "<p>可用的配送方式和运费以结账页面为准。配送详情请查看配送说明，或通过联系页面咨询。</p>"
+            "row_content": "<p>Available delivery methods and shipping charges are shown at checkout. Read our Shipping Information page or contact us if you need more details.</p>"
           }
         },
         "tracking": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "如何查询订单状态？",
+            "heading": "How do I check my order status?",
             "icon": "question_mark",
-            "row_content": "<p>请通过订单确认邮件中的链接查看订单状态。如需帮助，请联系我们并提供订单编号。</p>"
+            "row_content": "<p>Use the order status link in your confirmation email. If you need help, contact us with your order number.</p>"
           }
         },
         "changes": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "可以修改或取消订单吗？",
+            "heading": "Can I change or cancel my order?",
             "icon": "question_mark",
-            "row_content": "<p>请尽快联系我们并提供订单编号及修改需求。能否修改或取消取决于订单的实际处理状态。</p>"
+            "row_content": "<p>Contact us as soon as possible with your order number and the requested change. Whether we can adjust or cancel an order depends on its processing status.</p>"
           }
         },
         "returns": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "如何申请退换货？",
+            "heading": "How do I request a return or exchange?",
             "icon": "question_mark",
-            "row_content": "<p>请先查看退换货说明，再通过联系页面提交订单编号、商品信息和申请原因。</p>"
+            "row_content": "<p>Read our Returns & Exchanges page, then contact us with your order number, product details, and the reason for your request.</p>"
           }
         }
       },
@@ -59,7 +59,7 @@
         "returns"
       ],
       "settings": {
-        "heading": "购物帮助",
+        "heading": "Shopping help",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",

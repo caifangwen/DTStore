@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "先明确使用需求",
+            "heading": "Start with your needs",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>选购前，考虑商品的使用场景、尺寸和个人偏好，再对照商品详情中的规格信息。</p>"
+            "text": "<p>Consider where and how you plan to use a product, along with your size requirements and personal preferences. Compare these needs with the specifications on the product page.</p>"
           }
         }
       },
@@ -41,14 +41,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "核对规格与选项",
+            "heading": "Check the available options",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>请确认商品的颜色、尺寸、数量及其他可选规格。图片可能因拍摄光线和屏幕设置存在差异，请结合文字说明判断。</p>"
+            "text": "<p>Confirm your preferred color, size, quantity, and other options. Product images can vary with lighting and screen settings, so use the written description as well as the photos.</p>"
           }
         }
       },
@@ -69,14 +69,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "下单前再检查一次",
+            "heading": "Review before checkout",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>提交订单前，请核对购物车内容、收货地址、联系方式及结账页显示的配送费用。有不确定的信息，请先联系我们。</p>"
+            "text": "<p>Check your cart, delivery address, contact details, and the shipping charges shown at checkout. If something is unclear, contact us before placing your order.</p>"
           }
         }
       },

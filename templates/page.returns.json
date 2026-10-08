@@ -7,20 +7,20 @@
         "padding_bottom": 24
       }
     },
-    "request": {
+    "content0": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "申请退换货",
+            "heading": "Request a return or exchange",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>如需退换货，请先通过联系页面提交订单编号、商品信息和申请原因；如存在破损或质量问题，请附上相关照片。</p><p>退换货条件、申请期限及适用商品，以商店公布的退款政策和适用规则为准。</p>"
+            "text": "<p>Contact us with your order number, product details, and the reason for your request. Include photos if an item is damaged or has a quality issue. Eligibility, request deadlines, and exclusions are subject to the store's published refund policy and applicable requirements.</p>"
           }
         }
       },
@@ -35,20 +35,20 @@
         "padding_bottom": 40
       }
     },
-    "process": {
+    "content1": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "寄回商品前",
+            "heading": "Before sending an item back",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>请先与我们确认处理方式、寄回地址和物流安排，再寄回商品。请保留购买凭证、商品配件及相关包装。</p><p>退货运费和其他费用的承担方式，需根据申请原因及适用政策确认。</p>"
+            "text": "<p>Please confirm the return address and shipping arrangements with us before sending an item back. Keep your proof of purchase, accessories, and relevant packaging. Responsibility for return shipping and other costs depends on the reason for the request and the applicable policy.</p>"
           }
         }
       },
@@ -63,20 +63,20 @@
         "padding_bottom": 40
       }
     },
-    "refund": {
+    "content2": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "退款与换货进度",
+            "heading": "Refunds and exchanges",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>商品核实完成后，我们会告知后续处理结果。退款到账时间还取决于支付渠道或发卡机构；换货安排取决于实际库存和配送情况。</p>"
+            "text": "<p>We will explain the next steps after reviewing the item. Refund processing times also depend on your payment provider or card issuer. Exchanges are subject to available stock and delivery arrangements.</p>"
           }
         }
       },
@@ -94,8 +94,8 @@
   },
   "order": [
     "main",
-    "request",
-    "process",
-    "refund"
+    "content0",
+    "content1",
+    "content2"
   ]
 }

@@ -7,20 +7,20 @@
         "padding_bottom": 24
       }
     },
-    "story": {
+    "content0": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "关于 Friwind",
+            "heading": "About Friwind",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>欢迎来到 Friwind。在这里，探索适合自己的商品，为日常生活寻找新的灵感。</p><p>你可以从商品系列开始浏览，了解商品细节，并根据自己的需求做出选择。</p>"
+            "text": "<p>Welcome to Friwind. Explore products, discover everyday inspiration, and find options that suit your needs. Browse our collections to learn more about each product before making your choice.</p>"
           }
         }
       },
@@ -35,20 +35,20 @@
         "padding_bottom": 40
       }
     },
-    "approach": {
+    "content1": {
       "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "找到适合自己的选择",
+            "heading": "Find what works for you",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>选购前，请查看商品详情、规格和使用说明。如有疑问，欢迎通过联系页面向我们咨询。</p>"
+            "text": "<p>Review the product details, specifications, and usage instructions before ordering. If you need help choosing, our contact page is a good place to start.</p>"
           }
         }
       },
@@ -66,7 +66,7 @@
   },
   "order": [
     "main",
-    "story",
-    "approach"
+    "content0",
+    "content1"
   ]
 }

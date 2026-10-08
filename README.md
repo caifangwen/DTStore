@@ -379,3 +379,13 @@ _当前无法通过后台编辑 Tailwind 字段。如需修改，请联系 Trell
 页脚链接使用上述 handle；修改后台页面地址时，也需同步修改页脚链接。新页面中的说明可在主题编辑器中按实际业务调整。
 
 当前 friwind 商店已创建并发布上述页面记录，并绑定同名模板；联系页沿用原有记录。页脚与模板已同步到主题 `189371089203`。这些线上页面记录不包含在 Git 仓库中，迁移到其他商店时仍需创建对应页面。
+### 英文目录、筛选与文章分类
+
+- 自定义服务页面、页脚、分类页面和文章内容已统一为英文；README 保留中文。
+- `templates/collection.json` 使用 Dawn 原生筛选与排序：桌面端侧栏，移动端抽屉。具体筛选字段由 Shopify Search & Discovery 配置；字段需先在后台启用，才会显示。参见 https://shopify.dev/docs/storefronts/themes/navigation-search/filtering/storefront-filtering 。
+- 商品系列页和商品系列目录页均增加可编辑的 Image banner 区块。可在主题编辑器中上传图片，调整英文标题、说明和展示位置；未配置图片时使用 Dawn 默认占位图。
+- 文章分类入口为 `/pages/article-categories`；Journal 保留原博客地址 `/blogs/news`。分类使用文章标签：`Buying Guides`、`Care & Use`、`Brand Stories`，点击分类进入 Shopify 原生标签筛选页。
+- 三篇英文文章的源内容保存在 `content/journal.json`。该文件是内容备份，不会自动导入到其他商店。
+- 可运行 `npm run check:theme` 检查模板与 Liquid。线上商店启用了访问密码，直接验证前台交互需要商店访问密码。
+
+实时前台验证：先通过环境变量 `FRIWIND_STOREFRONT_PASSWORD` 提供当前商店访问密码，再运行 `npm run check:storefront`。检查覆盖 banner、桌面/移动筛选器、价格筛选、英文页面、文章分类结果及空分类状态。密码不写入代码或仓库；实时验证需使用有效的商店访问密码。

@@ -8,22 +8,22 @@
         "brand": {
           "type": "text",
           "settings": {
-            "heading": "认识 Friwind",
-            "subtext": "<ul><li><a href=\"/pages/about\">关于我们</a></li><li><a href=\"/pages/brand-story\">品牌故事</a></li><li><a href=\"/pages/contact\">联系我们</a></li></ul>"
+            "heading": "Discover Friwind",
+            "subtext": "<ul><li><a href=\"/pages/about\">About Us</a></li><li><a href=\"/pages/brand-story\">Our Story</a></li><li><a href=\"/pages/contact\">Contact Us</a></li></ul>"
           }
         },
         "service": {
           "type": "text",
           "settings": {
-            "heading": "客户服务",
-            "subtext": "<ul><li><a href=\"/pages/faq\">常见问题</a></li><li><a href=\"/pages/shipping\">配送说明</a></li><li><a href=\"/pages/returns\">退换货说明</a></li><li><a href=\"/pages/order-help\">订单帮助</a></li></ul>"
+            "heading": "Customer Service",
+            "subtext": "<ul><li><a href=\"/pages/faq\">FAQs</a></li><li><a href=\"/pages/shipping\">Shipping Information</a></li><li><a href=\"/pages/returns\">Returns & Exchanges</a></li><li><a href=\"/pages/order-help\">Order Help</a></li></ul>"
           }
         },
         "guides": {
           "type": "text",
           "settings": {
-            "heading": "选购与使用",
-            "subtext": "<ul><li><a href=\"/pages/buying-guide\">选购指南</a></li><li><a href=\"/pages/care-guide\">使用与保养</a></li></ul>"
+            "heading": "Guides & Journal",
+            "subtext": "<ul><li><a href=\"/pages/buying-guide\">Buying Guide</a></li><li><a href=\"/pages/care-guide\">Care & Use</a></li><li><a href=\"/pages/article-categories\">Article Categories</a></li><li><a href=\"/blogs/news\">Journal</a></li></ul>"
           }
         }
       },

@@ -19,8 +19,21 @@
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      {{ blog.title | escape }}
+      {{ blog.title | escape }}{% if current_tags %} — {{ current_tags | join: ', ' | escape }}{% endif %}
     </h1>
+
+    {%- if blog.all_tags.size > 0 -%}
+      <nav class="blog-category-nav" aria-label="{{ 'blogs.categories.label' | t }}">
+        <a href="{{ blog.url }}" class="button button--secondary"{% unless current_tags %} aria-current="page"{% endunless %}>
+          {{ 'blogs.categories.all' | t }}
+        </a>
+        {%- for tag in blog.all_tags -%}
+          <a href="{{ blog.url }}/tagged/{{ tag | handleize }}" class="button button--secondary"{% if current_tags contains tag %} aria-current="page"{% endif %}>
+            {{ tag | escape }}
+          </a>
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
@@ -41,6 +54,8 @@
             show_excerpt: true
           -%}
         </div>
+      {%- else -%}
+        <p role="status">{{ 'blogs.categories.empty' | t }}</p>
       {%- endfor -%}
     </div>
 
@@ -49,6 +64,19 @@
     {%- endif -%}
   </div>
 {%- endpaginate -%}
+
+{% stylesheet %}
+  .blog-category-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  .blog-category-nav [aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
+{% endstylesheet %}
 
 {% schema %}
 {

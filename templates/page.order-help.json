@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "查看订单",
+            "heading": "Find your order details",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>下单后，请保留订单确认邮件。你可以通过邮件中的订单状态链接查看订单信息；查询时请核对订单编号。</p>"
+            "text": "<p>Keep your order confirmation email after checkout. Use its order status link to review your order, and have your order number ready when contacting us.</p>"
           }
         }
       },
@@ -41,14 +41,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "修改订单信息",
+            "heading": "Request an order change",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>如需修改地址、商品或取消订单，请尽快联系我们。能否调整取决于订单的实际处理状态。</p>"
+            "text": "<p>If you need to change an address, adjust an item, or cancel an order, contact us as soon as possible. Available options depend on the order's current processing status.</p>"
           }
         }
       },
@@ -69,14 +69,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "配送或收货问题",
+            "heading": "Delivery and item issues",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>如遇物流更新异常、缺件或运输破损，请提供订单编号及相关照片。配送进度和处理方式需根据实际情况核实。</p>"
+            "text": "<p>For tracking problems, missing items, or damage in transit, send your order number and relevant photos. We will review the circumstances and explain the available next steps.</p>"
           }
         }
       },

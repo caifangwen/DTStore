@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>有关商品、订单或售后服务的问题，欢迎通过下方表单联系我们。订单相关咨询请提供订单编号，以便我们核实。</p><p>请勿在留言中填写密码或完整的支付卡信息。</p>"
+            "text": "<p>Have a question about a product, your order, or after-sales support? Send us a message using the form below. For order enquiries, include your order number so we can look into it.</p><p>Please do not include passwords or full payment card details in your message.</p>"
           }
         }
       },

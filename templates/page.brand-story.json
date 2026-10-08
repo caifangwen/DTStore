@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "从日常灵感出发",
+            "heading": "Inspired by everyday life",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Friwind 希望让选购成为探索日常灵感的过程。了解商品的设计、细节和用途，找到契合个人喜好的选择。</p>"
+            "text": "<p>Friwind invites you to explore everyday inspiration through thoughtful choices. Learn about a product's design, details, and intended use to find what fits your preferences.</p>"
           }
         }
       },
@@ -41,14 +41,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "认识我们的商品",
+            "heading": "Get to know your next purchase",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>我们鼓励你仔细阅读商品介绍，比较规格和细节。关于商品来源、材质或适用场景的问题，欢迎通过联系页面咨询。</p>"
+            "text": "<p>Take time to read product descriptions and compare specifications. If you have questions about a product's materials, origin, or suitability, contact us before placing your order.</p>"
           }
         }
       },

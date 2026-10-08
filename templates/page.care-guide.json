@@ -13,14 +13,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "以商品说明为准",
+            "heading": "Follow the product instructions",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>不同商品的材质和结构各不相同。首次使用前，请阅读商品详情、标签或随附说明，按对应要求使用。</p>"
+            "text": "<p>Materials and construction vary from product to product. Before first use, read the product page, care label, and any included instructions, and follow the guidance for that item.</p>"
           }
         }
       },
@@ -41,14 +41,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "清洁与收纳",
+            "heading": "Cleaning and storage",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>清洁方式应以商品标签或说明为准。未确认适用方式前，请避免使用强力清洁剂、高温或其他可能损坏商品的处理方法。</p>"
+            "text": "<p>Choose cleaning methods according to the product label or instructions. Avoid harsh cleaners, high heat, or other potentially damaging treatments unless they are specifically recommended.</p>"
           }
         }
       },
@@ -69,14 +69,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "需要进一步帮助？",
+            "heading": "Need more guidance?",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>如无法确认商品的保养方式，请通过联系页面提供商品名称或订单编号，我们会协助核实相关信息。</p>"
+            "text": "<p>If you are unsure how to care for an item, contact us with the product name or your order number so we can help you check the relevant information.</p>"
           }
         }
       },
