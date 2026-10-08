@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "story": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "关于 Friwind",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>欢迎来到 Friwind。在这里，探索适合自己的商品，为日常生活寻找新的灵感。</p><p>你可以从商品系列开始浏览，了解商品细节，并根据自己的需求做出选择。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    },
+    "approach": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "找到适合自己的选择",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>选购前，请查看商品详情、规格和使用说明。如有疑问，欢迎通过联系页面向我们咨询。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_alignment": "left",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "story",
+    "approach"
+  ]
+}
