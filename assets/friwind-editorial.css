@@ -1,0 +1,41 @@
+:root{--font-heading-family:Arial,Helvetica,sans-serif;--font-body-family:Arial,Helvetica,sans-serif;--font-heading-weight:600;--font-body-weight:400}
+body{letter-spacing:0}
+.header__heading-link .h2{text-transform:uppercase;font-weight:800;letter-spacing:-.06em}
+.header__menu-item,.friwind-eyebrow,.friwind-hero-notes,.button,.footer-block__heading{font-family:Consolas,"Courier New",monospace;font-size:12px;letter-spacing:.07em}
+.header__menu-item,.button{text-transform:uppercase}
+.friwind-hero{position:relative;overflow:hidden;border-bottom:1px solid rgba(16,16,20,.2);padding:48px 0 40px}
+.friwind-eyebrow{margin:0 0 24px;text-transform:uppercase}
+.friwind-wordmark{font-family:Arial,Helvetica,sans-serif;font-size:clamp(68px,18vw,260px);font-weight:900;line-height:.85;letter-spacing:-.085em;margin:12px 0 48px;padding-right:.085em}
+.friwind-headline{font-size:clamp(32px,4.5vw,66px);line-height:1.08;letter-spacing:-.045em;margin:0;max-width:900px}
+.friwind-headline em{font-family:Georgia,"Times New Roman",serif;font-weight:400}
+.friwind-intro{max-width:530px;color:rgba(16,16,20,.68);font-size:17px;line-height:1.65;margin:20px 0 28px}
+.friwind-actions .button{gap:30px;min-height:50px}
+.friwind-hero-notes{margin-top:52px;font-size:10px;text-transform:uppercase;color:rgba(16,16,20,.65)}
+.button{border-radius:0}
+.button:after,.button:before{border-radius:0}
+.button:hover{opacity:.8}
+a:focus-visible,button:focus-visible{outline:2px solid #1659c4;outline-offset:4px}
+.title,.title-wrapper-with-link .title{letter-spacing:-.04em;font-size:clamp(30px,3.6vw,50px)}
+.collection .title-wrapper,.blog .title-wrapper-with-link,.multicolumn .title-wrapper-with-link{padding-top:24px;border-top:1px solid rgba(16,16,20,.25)}
+.card__heading{letter-spacing:-.025em}
+.card__inner{background:#e9e8e4}
+.card__information{padding-top:20px}
+.price{font-size:14px}
+.multicolumn-list{counter-reset:editorial}
+.multicolumn-list__item{counter-increment:editorial}
+.multicolumn-card{border-top:1px solid rgba(16,16,20,.25)}
+.multicolumn-card__info:before{content:"0" counter(editorial) " /";display:block;margin-bottom:44px;font:12px Consolas,"Courier New",monospace;color:rgba(16,16,20,.6)}
+.multicolumn-card__info h3{font-size:26px;letter-spacing:-.035em}
+.multicolumn-card__info .rte{color:rgba(16,16,20,.68)}
+.article-card__excerpt{color:rgba(16,16,20,.68)}
+.footer{border-top:1px solid rgba(16,16,20,.25)}
+.footer-block__heading{text-transform:uppercase}
+.footer-block:first-child .footer-block__heading{font-family:Arial,Helvetica,sans-serif;font-size:36px;letter-spacing:-.06em;font-weight:800}
+.footer-block__details-content ul{list-style:none;padding:0}
+.footer-block__details-content li{margin-bottom:10px}
+.footer-block__details-content a{text-decoration:none}
+.footer-block__details-content a:hover{text-decoration:underline}
+.footer-block__details-content p{max-width:270px}
+.footer__content-bottom{border-color:rgba(16,16,20,.2)}
+@media(min-width:990px){.friwind-hero{min-height:calc(100svh - 90px);display:flex;align-items:center}.friwind-hero>.page-width{width:100%}.footer__blocks-wrapper{column-gap:40px}}
+@media(max-width:749px){.friwind-hero{padding-top:38px;padding-bottom:32px}.friwind-wordmark{margin-bottom:36px}.friwind-intro{font-size:15px}.friwind-hero-notes{gap:16px;margin-top:36px;font-size:9px}.friwind-actions{width:100%}.friwind-actions .button{flex:1;gap:12px;font-size:10px;white-space:nowrap;padding:0 16px}.multicolumn-card__info:before{margin-bottom:24px}}

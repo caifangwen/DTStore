@@ -25,9 +25,17 @@
             "heading": "Guides & Journal",
             "subtext": "<ul><li><a href=\"/pages/buying-guide\">Buying Guide</a></li><li><a href=\"/pages/care-guide\">Care & Use</a></li><li><a href=\"/pages/article-categories\">Article Categories</a></li><li><a href=\"/blogs/news\">Journal</a></li></ul>"
           }
+        },
+        "intro": {
+          "type": "text",
+          "settings": {
+            "heading": "Friwind",
+            "subtext": "<p>Good things for everyday living. Discover your next favorite.</p>"
+          }
         }
       },
       "block_order": [
+        "intro",
         "brand",
         "service",
         "guides"
@@ -35,15 +43,15 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "A little inspiration, in your inbox.",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "margin_top": 0,
+        "padding_top": 64,
+        "padding_bottom": 32
       }
     }
   },

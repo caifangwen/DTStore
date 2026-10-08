@@ -1,0 +1,27 @@
+<section class="friwind-hero color-scheme-1 gradient">
+  <div class="page-width twcss-flex twcss-flex-col twcss-items-center twcss-text-center">
+    <p class="friwind-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    <p class="friwind-wordmark" aria-hidden="true">FRIWIND</p>
+    <h1 class="friwind-headline">{{ section.settings.heading }}</h1>
+    <div class="friwind-intro rte">{{ section.settings.text }}</div>
+    <div class="friwind-actions twcss-flex twcss-flex-wrap twcss-justify-center twcss-gap-4">
+      <a class="button" href="{{ routes.all_products_collection_url }}">Explore the collection <span aria-hidden="true">↗</span></a>
+      <a class="button button--secondary" href="{{ section.settings.story_link }}">Meet Friwind <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="friwind-hero-notes twcss-flex twcss-flex-wrap twcss-justify-center twcss-gap-8">
+      <span>01 / Discover</span><span>02 / Make it yours</span><span>03 / Enjoy every day</span>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Friwind editorial hero",
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"Everyday, considered."},
+    {"type":"inline_richtext","id":"heading","label":"Heading","default":"Make room for <em>something good.</em>"},
+    {"type":"richtext","id":"text","label":"Description","default":"<p>A fresh perspective on everyday living. Explore the collection and find something that feels like you.</p>"},
+    {"type":"url","id":"story_link","label":"Story link","default":"/pages/about"}
+  ],
+  "presets": [{"name":"Friwind editorial hero"}]
+}
+{% endschema %}
